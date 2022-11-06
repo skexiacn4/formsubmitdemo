@@ -67,7 +67,25 @@ nav img{
 
 }
 
- 
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s ;
+}
+
+.nav-links ul li:hover::after{
+    width: 100%
+}
+
+nav .fa{
+    display: none;
+
+}
+
  .hero-btn {
     display: inline-block;
     text-decoration: none;
@@ -90,7 +108,8 @@ nav img{
     display: none;
  }
 
- @media(max-width: 600px) {
+ @media(max-width: 800px) {
+
     .text-box h1{
         font-size: 20px;
     }

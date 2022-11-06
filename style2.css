@@ -84,6 +84,11 @@ nav img{
 
  }
 
+ .nav-links ul li:hover::after{
+    width: 100%
+
+}
+
 .nav-links ul li::after{
     content: '';
     width: 0%;
@@ -98,11 +103,13 @@ nav img{
     width: 100%
 }
 
-nav .fa{
+ nav .fa{
     display: none;
  }
+ 
 
-@media(max-width: 600px) {
+@media(max-width: 800px) {
+
     .text-box h1{
         font-size: 20px;
     }
