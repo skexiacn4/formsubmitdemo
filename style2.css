@@ -102,7 +102,7 @@ nav .fa{
     display: none;
  }
 
-@media(max-width: 600px) {
+@media(max-width: 100px) {
     .text-box h1{
         font-size: 20px;
     }
@@ -148,7 +148,6 @@ p {
 .table_responsive {
     max-width: 900px;
     width: 100%;
-    border: 1px solid #000;
     background-color: #fff;
     padding: 50px;
     overflow: auto;
